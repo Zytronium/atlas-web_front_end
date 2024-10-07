@@ -1,9 +1,19 @@
 # Atlas Web Development - Front End
 
 ---
-###### Project Readme Template
-This project is all about something.
+Front end web development is the development of a website's visual elements.
+HTML (HyperText Markup Language) is a language mostly used in the creation
+of websites; specifically, the visual elements of the website, such as text,
+tables, images, and video/audio players. While you can do styling (I.E.
+text color, background color, padding, margins, etc.) with HTML, it is
+typically done with CSS (cascading style sheet). HTML and CSS make up the
+front end of Websites, or the visual part. The back end would be the
+functionality, like scripts written in Javascript.
 
-###### Description and example of concepts in this project 
+<details>
+<summary>Projects</summary>
 
-WIP repo readme
+- **[Advanced HTML](html_advanced)**
+- *[Advanced CSS]()*
+- *[AirBnB clone - Web static]()*
+</details>
