@@ -14,6 +14,6 @@ functionality, like scripts written in Javascript.
 <summary>Projects</summary>
 
 - **[Advanced HTML](html_advanced)**
-- *[Advanced CSS]()*
+- ***[Advanced CSS](CSS_advanced)***
 - *[AirBnB clone - Web static]()*
 </details>
