@@ -34,19 +34,18 @@ body {
     font-weight: var(--font-weight-regular);
     line-height: var(--line-height-base);
 }
-
 a:link {
-    a:link[href] {
+    a[href]:link {
         text-decoration: none;
         color: var(--text-color);
     }
-    a:visited[href] {
+    a[href]:visited {
         font-style: italic;
     }
-    a:hover[href] {
+    a[href]:hover {
         text-decoration: underline;
     }
-    a:active[href] {
+    a[href]:active {
         background-color: var(--color-light-grey);
     };
 }
