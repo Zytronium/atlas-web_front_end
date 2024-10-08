@@ -27,13 +27,15 @@ html {
     scroll-behavior: smooth;
     font-size: 62.5%
 }
+
 body {
-    color:var(--text-color);
+    color: var(--text-color);
     font-family: var(--font-family-base);
     font-size: var(--font-size-medium);
     font-weight: var(--font-weight-regular);
     line-height: var(--line-height-base);
 }
+
 a:link {
     text-decoration: none;
     color: var(--text-color);
@@ -47,15 +49,19 @@ a:hover {
 a:active {
     background-color: var(--color-light-grey);
 }
+
 .visually-hidden {
     display: none;
 }
+
 .card-category {
     color: var(--color-primary);
 }
+
 .section-header {
     text-align: var(--section-header-align);
 }
+
 .section-title {
     font-family: var(--font-family-title);
     font-size: var(--font-size-xx-large);
@@ -63,12 +69,14 @@ a:active {
     margin: var(--section-title-margin);
     color: var(--section-title-color);
 }
+
 .section-tagline {
     color: var(--color-primary);
     font-family: var(--font-family-title);
     text-transform: var(--section-tagline-transform);
     font-weight: var(--font-weight-bold);
 }
+
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-family-title);
     font-weight: var(--font-weight-bold);
