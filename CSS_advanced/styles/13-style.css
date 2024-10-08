@@ -34,7 +34,6 @@ body {
     font-weight: var(--font-weight-regular);
     line-height: var(--line-height-base);
 }
-
 a:link {
     text-decoration: none;
     color: var(--text-color);
@@ -48,7 +47,6 @@ a:hover {
 a:active {
     background-color: var(--color-light-grey);
 }
-
 .visually-hidden {
     display: none;
 }
