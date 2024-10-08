@@ -185,6 +185,7 @@ template {
 .section-header {
     padding: var(--section-header-padding)
 }
+
 .section-body {
     padding: var(--section-body-padding)
 }
@@ -194,7 +195,8 @@ template {
     text-align: var(--section-footer-align);
 }
 
-.section-tagline {}
+.section-tagline {
+}
 
 .container {
     width: 960px;
@@ -215,20 +217,24 @@ template {
     padding: 0;
     list-style: none;
     text-align: center;
-    .nav-item {
-        font-family: var(--nav-item-font-family);
-        font-weight: var(--nav-item-font-weight);
-        font-size: var(--nav-item-font-size);
-        letter-spacing: var(--nav-item-letter-spacing);
-        display: var(--nav-item-display);
-        margin: var(--nav-item-margin);
-    }
-    .nav-link {
-        display: block;
-        padding: 0.5rem 1rem;
-    }
-    .nav-link:hover {
-        color: var(--nav-item-link-hover);
-    }
 }
+
+.nav-item {
+    font-family: var(--nav-item-font-family);
+    font-weight: var(--nav-item-font-weight);
+    font-size: var(--nav-item-font-size);
+    letter-spacing: var(--nav-item-letter-spacing);
+    display: var(--nav-item-display);
+    margin: var(--nav-item-margin);
+}
+
+.nav-link {
+    display: block;
+    padding: 0.5rem 1rem;
+}
+
+.nav-link:hover {
+    color: var(--nav-item-link-hover);
+}
+
 /*# sourceMappingURL=normalize.min.css.map */
