@@ -5,14 +5,6 @@
     --color-light-grey: #f3f3f3;
     --color-dark-grey: #353535;
     --text-color: var(--color-black);
-    @font-face {
-        font-face-name: 'font-family-base';
-        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-    }
-    @font-face {
-        font-face-name: 'font-family-title';
-        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-    }
 }
 
 html {
@@ -20,7 +12,6 @@ html {
 }
 body {
     color:var(--text-color);
-    font-family: "font-family-base";
 }
 a {
     color: var(--text-color);
@@ -33,22 +24,4 @@ a {
 }
 .section-tagline {
     color: var(--color-primary);
-}
-h1 {
-    font-family: font-family-title;
-}
-h2 {
-    font-family: font-family-title;
-}
-h3 {
-    font-family: font-family-title;
-}
-h4 {
-    font-family: font-family-title;
-}
-h5 {
-    font-family: font-family-title;
-}
-h6 {
-    font-family: font-family-title;
 }
