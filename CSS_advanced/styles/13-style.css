@@ -36,7 +36,7 @@ body {
 }
 
 a:link {
-    a[href] {
+    a:link[href] {
         text-decoration: none;
         color: var(--text-color);
     }
