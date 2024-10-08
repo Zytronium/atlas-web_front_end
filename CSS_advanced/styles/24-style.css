@@ -292,6 +292,8 @@ ul.row {
     color: var(--text-color);
 }
 
+.card-services {}
+
 .card-services .card-title {
     margin: 0;
 }
