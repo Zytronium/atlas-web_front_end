@@ -39,7 +39,7 @@ a {
     display: none;
 }
 .section-header {
-    horiz-align: var(--section-header-align);
+    text-align: var(--section-header-align);
 }
 .card-category, .section-tagline {
     color: var(--color-primary);
